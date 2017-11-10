@@ -13,3 +13,4 @@ end
 Então("meu saldo deve ser de {float}") do |saldo_final|
     expect(@conta.saldo).to eql saldo_final
 end
+
